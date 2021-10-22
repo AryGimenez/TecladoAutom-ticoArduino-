@@ -1,0 +1,8 @@
+Esquema Electrico
+Fritzing
+https://fritzing.org/download/
+
+Arduino
+Arduino IDE 2.0 beta
+https://www.arduino.cc/en/software
+

@@ -2,7 +2,7 @@
 const String  mCodConfiguracion = "Constante que guarda la configuración a digitar por teclado"; // 
 int mPocicionCaracter = 0;
 
-const int mLlaveInicio = 3;
+const int mLlaveInicio = 21;
 
 
 void setup() {
@@ -14,7 +14,7 @@ void loop() {
  
  
  
-  if (digitalRead(mLlaveInicio) == HIGH){    
+  if (digitalRead(mLlaveInicio) == HIGHT){    
       digitarCaracteres ();
 }
 
@@ -35,7 +35,6 @@ void digitarCaracteres (){
   }
 
   mPocicionCaracter = 0; // Retorna a la posición 0 de la cadena 
-
 
 }
 

@@ -1,5 +1,7 @@
 #include <Keyboard.h>
 const String  mCodConfiguracion = "Constante que guarda la configuración a digitar por teclado"; // 
+
+
 int mPocicionCaracter = 0;
 
 const int mLlaveInicio = 21;
@@ -10,11 +12,8 @@ void setup() {
   pinMode(mLlaveInicio, INPUT);
 }
 
-void loop() {
- 
- 
- 
-  if (digitalRead(mLlaveInicio) == HIGHT){    
+void loop() { 
+  if (digitalRead(mLlaveInicio) == HIGHT)
       digitarCaracteres ();
 }
 
